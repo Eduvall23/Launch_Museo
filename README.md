@@ -70,6 +70,8 @@ Console.WriteLine(artist.AgeAtDeat());
 
 ## Iteration 2
 
+Create a 
+
 ```c#
 var curator = new Curator();
 
@@ -146,3 +148,10 @@ Console.WriteLine(foundArtist.Name);
 // Output => "Henri Cartier-Bresson"
 
 ```
+
+## Iteration 3
+Update your `Curator` class so that is supports the following functionality:
+
+* A `Curator` can return a dictionary of all artists and their photographs.
+* A `Curator` can return a list of names of artists who have more than one photograph
+* A `Curator` can return a list of photographs that were taken by a photographer from a given country.
