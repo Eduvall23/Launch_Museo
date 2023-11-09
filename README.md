@@ -12,7 +12,7 @@
 
 Create a `Photograph` and an `Artist` class that respond to the following interaction pattern.
 
-For `AgeAtDeath`, assume an artist was born and died on the same day.
+For `AgeAtDeath()`, assume an artist was born and died on the same day.
 
 ```c#
 var photoAttributes = new Dictionary<string, string>
